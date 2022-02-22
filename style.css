@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 2px solid red; */
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #E5E3C9;
+  color: white;
+}
+
+h1 {
+  font-weight: 700;
+  text-shadow: 2px 2px #789395;
+}
+
+.todo-input {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  border-bottom: 3px solid #B4CFB0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: inherit;
+  transition: width .30s ease-in-out;
+}
+
+.todo-input:focus {
+  outline: none;
+  width: 350px;
+}
+
+.btn-submit {
+  height: 40px;
+  width: 40px;
+  background-color: #789395;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.container-all {
+  margin: auto;
+  width: 450px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.todo-container {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.list-todo {
+  width: 120%;
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list-todo li {
+  width: 100%;
+  margin-bottom: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-list {
+  background-color: #94B49F;
+  height: 40px;
+  margin-left: -75px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 1.2em;
+}
+
+.btn-hapus {
+  width: 40px;
+  background-color: #E5E3C9;
+  color: #789395;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-hapus:hover {
+  background-color: #789395;
+  color: #E5E3C9;
+}
